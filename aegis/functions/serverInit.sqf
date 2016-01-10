@@ -16,9 +16,15 @@ private ['_code', '_function', '_file'];
 }
 forEach
 [
-	['aegis_system_process_postinit', 'aegis\functions\aegis_system_process_postinit.sqf'],
-  ['aegis_system_process_preinit', 'aegis\functions\aegis_system_process_preinit.sqf'],
   ['aegis_system_database_connect', 'aegis\functions\aegis_system_database_connect.sqf'],
+  ['aegis_system_database_handleBig', 'aegis\functions\aegis_system_database_handleBig.sqf'],
+  ['aegis_system_database_query_fireAndForget', 'aegis\functions\aegis_system_database_query_fireAndForget.sqf'],
+  ['aegis_system_database_query_selectSingleField', 'aegis\functions\aegis_system_database_query_selectSingleField.sqf'],
+  ['aegis_system_network_event_onHandleDisconnect', 'aegis\functions\aegis_system_network_event_onHandleDisconnect.sqf'],
+  ['aegis_system_network_event_onPlayerConnected', 'aegis\functions\aegis_system_network_event_onPlayerConnected.sqf'],
+  ['aegis_system_network_event_onPlayerDisconnected', 'aegis\functions\aegis_system_network_event_onPlayerDisconnected.sqf'],
+  ['aegis_system_process_preinit', 'aegis\functions\aegis_system_process_preinit.sqf'],
+	['aegis_system_process_postinit', 'aegis\functions\aegis_system_process_postinit.sqf'],
   ['aegis_util_log', 'aegis\functions\aegis_util_log.sqf']
 ];
 

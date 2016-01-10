@@ -1,3 +1,7 @@
+/*
+O método utilizado aqui é um derivativo do método utilizado pelo time do Exile Mod.
+Como se trata de uma trabalho derivativo, sua distribuição não é permitida.*/
+
 private["_isConnected","_result"];
 _isConnected = false;
 AegisDatabaseSessionId = "";
@@ -27,7 +31,7 @@ try
 	{
 		throw format ["Falha na inicializacao do protocolo de banco de dados: %1", _result];
 	};
-	ExileServerStartTime = (call compile ("extDB2" callExtension "9:LOCAL_TIME")) select 1;
+	AegisStartTime = (call compile ("extDB2" callExtension "9:LOCAL_TIME")) select 1;
 	"Protocolo do banco de dados inicializado!" call aegis_util_log;
 	"extDB2" callExtension "9:LOCK";
 	_isConnected = true;
