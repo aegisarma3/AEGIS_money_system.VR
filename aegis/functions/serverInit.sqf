@@ -16,6 +16,7 @@ private ['_code', '_function', '_file'];
 }
 forEach
 [
+  ['aegis_object_civilian_eventhandler', 'aegis\functions\aegis_object_civilian_eventhandler.sqf'],
   ['aegis_system_database_connect', 'aegis\functions\aegis_system_database_connect.sqf'],
   ['aegis_system_database_handleBig', 'aegis\functions\aegis_system_database_handleBig.sqf'],
   ['aegis_system_database_query_fireAndForget', 'aegis\functions\aegis_system_database_query_fireAndForget.sqf'],

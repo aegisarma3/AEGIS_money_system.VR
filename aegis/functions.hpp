@@ -8,10 +8,14 @@ class CfgFunctions
 				file = "aegis\functions\serverInit.sqf";
 				preInit = 1;
 			};
-			/*class clientInit {
+			class serverPostInit {
+				file = "aegis\functions\serverPostInit.sqf";
+				postInit = 1;
+			}
+			class clientInit {
 				file = "aegis\functions\clientInit.sqf";
 				preInit = 1;
-			}*/
+			}
 		}
 	};
 };

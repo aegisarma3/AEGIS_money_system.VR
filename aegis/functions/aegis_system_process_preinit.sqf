@@ -20,5 +20,5 @@ onPlayerConnected {[_uid, _name] call aegis_system_network_event_onPlayerConnect
 if !(getRemoteSensorsDisabled) then
 {
 	disableRemoteSensors true;
-};
-PublicServerIsLoaded = false;*/
+};*/
+PublicServerIsLoaded = false;
